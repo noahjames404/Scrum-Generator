@@ -1,0 +1,22 @@
+{
+    "name": "Scrum Vendor",
+    "version": "1.0.0",
+    "description": "Shabu Vendor",
+    "manifest_version": 3,
+    "author": "Noah James Yanga",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Scrum Vendor"
+    },
+    "background" : {
+      "scripts":[
+          "background.js"
+      ]
+    },
+    "permissions": [
+      "storage",
+      "clipboardWrite",
+      "clipboardRead"
+    ]
+
+}
