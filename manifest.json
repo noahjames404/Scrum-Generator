@@ -8,11 +8,6 @@
         "default_popup": "index.html",
         "default_title": "Scrum Vendor"
     },
-    "background" : {
-      "scripts":[
-          "background.js"
-      ]
-    },
     "permissions": [
       "storage",
       "clipboardWrite",
